@@ -194,7 +194,7 @@ void Sender_Task(void *pvParameters)
         send_sum += send_num;
         if (send_num == 10000)
         {
-            send_num = 1;
+            send_num = 0;
         }
         /*
         Delay for a period of time. vTaskDelay() places the task into
